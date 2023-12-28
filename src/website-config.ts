@@ -54,7 +54,7 @@ export type WebsiteConfig = {
 };
 
 const config: WebsiteConfig = {
-  title: '남해 스카이캐슬',
+  title: 'Sky Castle',
   description: '당신의 삶에 감동을 선물하는 남해 스카이캐슬! 자신있게 선보입니다!',
   coverImage: 'img/home.jpg',
   logo: 'img/logo.jpg',
