@@ -59,7 +59,7 @@ const config: WebsiteConfig = {
   coverImage: 'img/home.jpg',
   logo: 'img/logo.jpg',
   lang: 'kor',
-  siteUrl: 'https://gatsby-casper.netlify.com',
+  siteUrl: 'https://remarkable-marzipan-c0a23d.netlify.app',
   naverBlog: 'https://m.blog.naver.com/PostView.naver?blogId=oksen2&logNo=223293756800&navType=by',
   phoneCall: '010-5367-8091',
   map: 'https://map.naver.com/p/search/%EB%82%A8%ED%95%B4%EC%9D%8D%20%ED%99%94%EC%A0%84%EB%A1%9C%20122%EB%B2%88%EA%B8%B8%2037-26/address/14237519.5837125,4142750.109334,%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EB%82%A8%ED%95%B4%EC%9D%8D%20%ED%99%94%EC%A0%84%EB%A1%9C122%EB%B2%88%EA%B8%B8%2037-26,new?c=19.00,0,0,0,dh&isCorrectAnswer=true',
