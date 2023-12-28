@@ -9,7 +9,6 @@ import { colors } from '../../styles/colors';
 import { SocialLink, SocialLinkFb } from '../../styles/shared';
 import config from '../../website-config';
 import { FaPhoneAlt } from "react-icons/fa";
-import { SubscribeModal } from '../subscribe/SubscribeModal';
 import { SiteNavLogo } from './SiteNavLogo';
 import { SiNaver } from "react-icons/si";
 import { FaMapMarkedAlt } from "react-icons/fa";
@@ -25,17 +24,10 @@ type SiteNavState = {
 };
 
 class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
-  subscribe = React.createRef<SubscribeModal>();
   titleRef = React.createRef<HTMLSpanElement>();
   lastScrollY = 0;
   ticking = false;
   state = { showTitle: false };
-
-  openModal = () => {
-    if (this.subscribe.current) {
-      this.subscribe.current.open();
-    }
-  };
 
   componentDidMount(): void {
     this.lastScrollY = window.scrollY;

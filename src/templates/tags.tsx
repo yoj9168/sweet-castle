@@ -67,7 +67,7 @@ function Tags({ pageContext, data, location }: TagTemplateProps) {
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${tag} - ${config.title}`} />
-        <meta property="og:url" content={config.siteUrl + location.pathname} />
+        {/* <meta property="og:url" content={config.siteUrl + location.pathname} /> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${tag} - ${config.title}`} />
         <meta name="twitter:url" content={config.siteUrl + location.pathname} />

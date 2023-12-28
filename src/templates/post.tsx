@@ -115,7 +115,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.frontmatter.title} />
         <meta property="og:description" content={post.frontmatter.excerpt || post.excerpt} />
-        <meta property="og:url" content={config.siteUrl + location.pathname} />
+        {/* <meta property="og:url" content={config.siteUrl + location.pathname} /> */}
         {post.frontmatter.image && (
           <meta
             property="og:image"
