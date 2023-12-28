@@ -14,20 +14,14 @@ const Apply: React.FC = () => {
       let sms = `고객명 : ${customerName}\n전화번호 : ${phoneNumber}\n방문 날짜 : ${visitDate}`;
       let smsUrl='';
       if (userAgent.search('android') > -1) {
-        smsUrl = `sms:010-4059-9168?body=${sms}`
+        smsUrl = `sms:010-5367-8091?body=${sms}`
       } else if (userAgent.search('iphone') > -1 || userAgent.search('ipad') > -1) {
-        smsUrl = `sms:010-4059-9168&body=${sms}`
+        smsUrl = `sms:010-5367-8091&body=${sms}`
       }
       console.log(smsUrl);
       window.open(smsUrl, '_blank');
     }
-
-    console.log('고객명:', customerName);
-    console.log('전화번호:', phoneNumber);
-    console.log('방문 날짜:', visitDate);
-    console.log('이용 약관 동의:', agreementChecked);
   };
-
   const labelStyle = {
     display: 'block',
     marginBottom: '8px',
@@ -45,7 +39,9 @@ const Apply: React.FC = () => {
     padding: '16px',
     marginBottom: '16px',
   };
-
+  const inputStyle = {
+    color:"darkblue"
+  };
   return (
     <div style={containerStyle}>
       <h2>예약 방문하기</h2>
@@ -56,6 +52,7 @@ const Apply: React.FC = () => {
             type="text"
             value={customerName}
             onChange={(e) => setCustomerName(e.target.value)}
+            style={inputStyle}
           />
         </label>
         <br />
@@ -65,6 +62,7 @@ const Apply: React.FC = () => {
             type="tel"
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
+            style={inputStyle}
           />
         </label>
         <br />
@@ -74,6 +72,7 @@ const Apply: React.FC = () => {
             type="date"
             value={visitDate}
             onChange={(e) => setVisitDate(e.target.value)}
+            style={inputStyle}
           />
         </label>
       </div>
@@ -94,8 +93,9 @@ const Apply: React.FC = () => {
             <ul>
               <li>개인정보 및 이용목적이 달성된 이후에는 해당 정보를 지체없이 파기합니다</li>
             </ul>
-          
         </div>
+        PC 이용시에는 방문 예약이 등록이 어렵습니다. <br></br>
+        모바일로 부탁드리고, PC 사용시에는 010-5367-8091로 문의 부탁드립니다.
       </div>
 
       <div style={boxStyle}>
