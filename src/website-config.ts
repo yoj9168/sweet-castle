@@ -58,7 +58,7 @@ const config: WebsiteConfig = {
   description: '당신의 삶에 감동을 선물하는 남해 스카이캐슬! 자신있게 선보입니다!',
   coverImage: 'img/home.jpg',
   logo: 'img/logo.jpg',
-  lang: 'kor',
+  lang: 'ko',
   siteUrl: 'https://remarkable-marzipan-c0a23d.netlify.app',
   naverBlog: 'https://m.blog.naver.com/PostView.naver?blogId=oksen2&logNo=223293756800&navType=by',
   phoneCall: '010-5367-8091',
