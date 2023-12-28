@@ -332,6 +332,12 @@ function IndexLayout(props: IndexProps) {
           dl,
           blockquote {
             margin: 0 0 1.5em 0;
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-weight: 100;
+            src: url("styles/fonts/NotoSansKR-Light.woff2") format('woff2'),
+            url("styles/fonts/NotoSansKR-Light.woff") format('woff'),
+            url("styles/fonts/NotoSansKR-Light.otf") format('truetype')
           }
 
           ol,

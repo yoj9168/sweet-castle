@@ -246,7 +246,7 @@ export const ResponsiveHeaderBackground = styled.div<{ backgroundImage?: string 
 
   .site-description {
     /* color: var(--midgrey); */
-    color: ${colors.midgrey};
+    color: ${colors.darkgrey};
     opacity: 1;
   }
 
@@ -339,7 +339,7 @@ export const NoImage = css`
 
   .no-image .site-description {
     /* color: var(--midgrey); */
-    color: ${colors.midgrey};
+    color: ${colors.darkgrey};
     opacity: 1;
   }
 

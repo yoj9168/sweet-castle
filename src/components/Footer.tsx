@@ -21,27 +21,17 @@ export function Footer() {
           )}
         </section>
         <SiteFooterNav>
-          <Link to="/">Latest Posts</Link>
-          {config.facebook && (
-            <a href={config.facebook} target="_blank" rel="noopener noreferrer">
-              Facebook
+          <Link to="/">최근에 본 글</Link>
+          {config.phoneCall && (
+            <a href='tel:010-5367-8091' target="_blank" rel="noopener noreferrer">
+              문의하기
             </a>
           )}
-          {config.twitter && (
-            <a href={config.twitter} target="_blank" rel="noopener noreferrer">
-              Twitter
+          {config.naverBlog && (
+            <a href={config.naverBlog} target="_blank" rel="noopener noreferrer">
+              네이버 블로그
             </a>
           )}
-
-          <a
-            href="https://github.com/scttcper/gatsby-casper"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Casper
-          </a>
-
-          <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>
     </footer>

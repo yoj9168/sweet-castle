@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import { getSrc, getImage } from 'gatsby-plugin-image';
 import React from 'react';
 import { Helmet } from 'react-helmet';
-
+import Apply from '../components/Apply';
 import { css } from '@emotion/react';
 
 import { Footer } from '../components/Footer';
@@ -52,14 +52,13 @@ function IndexPage(props: IndexProps) {
       <Helmet>
         <html lang={config.lang} />
         <title>{config.title}</title>
-        <meta name="description" content={config.description} />
+        <meta name="description" content={config.description} font-family/>
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={config.title} />
         <meta property="og:description" content={config.description} />
         <meta property="og:url" content={config.siteUrl} />
         <meta property="og:image" content={`${config.siteUrl}${getSrc(props.data.header)}`} />
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
         {config.googleSiteVerification && (
           <meta name="google-site-verification" content={config.googleSiteVerification} />
         )}
@@ -68,10 +67,10 @@ function IndexPage(props: IndexProps) {
         <meta name="twitter:description" content={config.description} />
         <meta name="twitter:url" content={config.siteUrl} />
         <meta name="twitter:image" content={`${config.siteUrl}${getSrc(props.data.header)}`} />
-        {config.twitter && (
+        {config.naverBlog && (
           <meta
-            name="twitter:site"
-            content={`@${config.twitter.split('https://twitter.com/')[1]}`}
+            name="naverBlog:site"
+            content={`@${config.naverBlog.split('https://blog.naver.com/')[1]}`}
           />
         )}
         <meta property="og:image:width" content={width?.toString()} />
@@ -117,6 +116,7 @@ function IndexPage(props: IndexProps) {
             </div>
           </div>
         </main>
+        <Apply></Apply>
         {props.children}
         {props.pageContext.numPages > 1 && (
           <Pagination
@@ -132,12 +132,12 @@ function IndexPage(props: IndexProps) {
 
 export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+    logo: file(relativePath: { eq: "img/logo.png" }) {
       childImageSharp {
-        gatsbyImageData(layout: FIXED)
+        gatsbyImageData(layout: FULL_WIDTH)
       }
     }
-    header: file(relativePath: { eq: "img/blog-cover.png" }) {
+    header: file(relativePath: { eq: "img/home.jpg" }) {
       childImageSharp {
         gatsbyImageData(width: 2000, quality: 100, layout: FIXED, formats: [AUTO, WEBP, AVIF])
       }

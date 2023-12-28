@@ -1,28 +1,58 @@
 ---
-layout: post
-title: Github Source
-image: img/callum-shaw-555357-unsplash.jpg
-author: [Ghost]
-date: 2019-03-10T10:00:00.000Z
-tags:
-  - Source
-excerpt: Where to find this project on GitHub.
+title: 왜 주택을 팔고 아파트에 살아야 할까요?
+image: img/poster.png
+author: [남해 스카이캐슬]
+date: '2023-12-26T10:00:00.000Z'
+tags:  
+  - 남해 스카이캐슬
+  - 스카이캐슬
+  - 남해 분양
+  - 스카이캐슬 분양
+  - 남해 매매
+excerpt: '#스카이캐슬 #남해스카이캐슬 #남해분양 #스카이캐슬 분양 #남해 매매'
 ---
 
-## __A few things you should know__
-Find the source of this blog on GitHub - [scttcper/gatsby-casper](https://github.com/scttcper/gatsby-casper)
+안녕하세요~!! 스카이캐슬입니다.<br>
+다들 아버님 어머님들 주택에서 아파트로 이사올까 많이들 고민하십니다!<br>
+<strong>당연히 아파트가 좋습니다.</strong><br> 이유를 들자면 굉장히 다양하지만 몇가지 알려드릴게요!
 
-### Getting Started
-Use this repo to start your own blog with the same theme.
+<h2>첫번째. 난방비</h2>
+<img src="./img/gas-info.png">
 
-__Clone this repo.__
-```bash
-git clone https://github.com/scttcper/gatsby-casper.git --depth=1
-```
+아파트라고 해서 다 따뜻한건 아니에요!<br>
+저희 스카이캐슬이기 때문에 따뜻한것입니다!<br>
+10년전 아파트와는 애초에 법이 다르기에 훨씬 두껍고 튼튼해서 더 따뜻해요.<br>
+저희 스카이캐슬만의 디테일 노하우를 통해 최고의 단열 효과를 보여드립니다.
 
-__Remove .git folder and setup a new one__
-```bash
-rm -rf .git && git init
-```
+<h2>두번째. 보안</h2>
+<img src="./img/security-info.png">
 
-Now push to whatever repo you want!
+아무래도 관리와 안전면에서 아파트가 더 뛰어납니다.<br>
+청소뿐만아니라 집을 비울때에도 주택은 굉장히 위험합니다.<br>
+스카이캐슬은 cctv와 1층 안전문 그리고 무인택배함까지.<br>
+프라이빗하고 안전하게 거주하실수 있습니다.
+
+<h2>세번째. 팔기 좋고</h2>
+<img src="./img/sell-info.png">
+
+아무래도 주택보다는 아파트가 손쉽게 되팔기 쉽습니다.<br>
+시간이 갈수록 모두들 편리한 아파트에 익숙해져있습니다.<br>
+남해 스카이캐슬은 남해에서 가장 좋은 아파트라 자부합니다.<br>
+아파트의 가치로 따졌을때 절대 후회없는 결정이실거예요.
+
+<h2>네번째. 편리함</h2>
+<img src="./img/comfortable-info.png">
+
+아파트의 편리함은 이루 말할 필요가 없습니다.<br>
+각 방마다 도시가스로 연결된 개별난방, 시스템에어컨, 펜트리룸, 드레스룸.<br>
+청소기 충전 콘센트 위치까지 디자인해서 만든 스카이캐슬.<br>
+살기 편하도록 다양한 디테일을 넣어만든 스카이캐슬입니다.<br>
+
+<h2>다섯번째. 해충</h2>
+<img src="./img/bug-info.png">
+
+마지막으로 해충입니다.<br>
+남해은 공기좋고 물좋고 정기좋은 친환경 도시인만큼 벌레들이 많습니다.<br>
+하지만 아파트에 살면 해충과 벌레들의 습격으로부터 비교적 안전합니다.<br>
+이중창과 이중문. 실외기 창고에 맞춤형의 방충망 등 <br>다양한 디테일이 숨어져있는 남해 스카이 캐슬입니다.
+

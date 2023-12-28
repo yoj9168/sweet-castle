@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Casper',
+    title: 'TEST',
     description: 'A port of the casper blog built for gatsby',
     siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
   },

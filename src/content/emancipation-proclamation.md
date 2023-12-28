@@ -1,16 +1,51 @@
 ---
-title: 'Great Gatsby'
-author: [Another Author]
-tags: []
-image: img/marvin-meyer-794521-unsplash.jpg
-date: '1922-12-12T10:00:00.000Z'
+title: '경동나비엔 보일러'
+author: [남해 스카이캐슬]
+tags:
+  - 남해 스카이캐슬
+  - 스카이캐슬
+  - 남해 분양
+  - 스카이캐슬 분양
+  - 남해 매매
+image: img/gas-1.jpg
+date: '2023-12-26T10:00:00.000Z'
 draft: false
+excerpt: '#스카이캐슬 #남해스카이캐슬 #남해분양 #스카이캐슬 분양 #남해 매매'
 ---
 
-In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+<img src="./img/gas-1-1.jpg">
+<img src="./img/gas-7.png">
 
-“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”
+대한민국 최초 프리미엄 콘뎅싱 보일러라고 하면<br>
+가장 대표적인 브랜드가 <b>경동나비엔이죠??</b>
 
-He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.
+남해 스카이캐슬도 경동나비엔이 각 세개에 모두 설치됩니다
 
-And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+계속해서 말씀드린 스카이캐슬의 가장 큰 장점인 <b>"단열"</b>
+
+가스비 절감 1등 브랜드 나비엔과 
+<br>따뜻하게 짓는 스카이캐슬이 만나 최고의 시너지를 가집니다!
+
+스카이캐슬에서 따뜻하고 시원하고 아늑하게!
+
+<b>유지비는 적게! 생활은 편리하게!</b>
+
+스카이캐슬과 함께 하세요
+
+<img src="./img/gas-2.jpg">
+
+소비효율 1등급! 경동 나비엔 콘덴싱 보일러
+
+[가정용 보일러는 도시가스 사용의 60% 이상을 차지 하는 에너지 다소비 기기 입니다. 같은 1등급 콘덴싱 보일러지만 실제로 사용환경에서 열효율이 더 높은 나비엔 콘덴셍 보일러를 사용하시면 가스비를 더 많이 절감 할 수 있을 뿐 아니라 에너지 고갈 및 지구온난화 방지에도 기여할 수 있습니다.]
+
+<img src="./img/gas-3.png">
+
+<img src="./img/gas-4.jpg">
+
+<img src="./img/gas-5.png">
+
+<b>각 방에서 온도 조절 예약까지 가능합니다!</b><br>사용하기도 효율적으로 쓰기도 편하겠죠?
+
+저희 스카이캐슬에서 따뜻하고 포근하게 지내시길 바랍니다:)
+
+감사합니다.
