@@ -57,6 +57,7 @@ function IndexPage(props: IndexProps) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="남해 스카이캐슬" />
         <meta property="og:description" content={config.description} />
+        <meta name="naver-site-verification" content="5bc82da2cc210d027901e7d696ce5ff2d8cee58e" />
         {/* <meta property="og:url" content="https://remarkable-marzipan-c0a23d.netlify.app" /> */}
         <meta property="og:image" content={`${config.siteUrl}${getSrc(props.data.header)}`} />
         {config.googleSiteVerification && (
