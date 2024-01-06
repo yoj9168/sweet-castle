@@ -3,9 +3,10 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'TEST',
-    description: 'A port of the casper blog built for gatsby',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    title: '산청 스카이캐슬',
+    description: '남해 스카이캐슬',
+    siteUrl: 'https://skycastle.today', // full path to blog - no ending slash
+    subtitle: '당신의 삶에 감동을 선물하는 남해 스카이캐슬! 자신있게 선보입니다!'
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml.name',
@@ -13,6 +14,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sitemap',
     'gatsby-plugin-image',
+    'gatsby-plugin-robots-txt',
     {
       resolve: 'gatsby-plugin-sharp',
       options: {
